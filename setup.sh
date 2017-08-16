@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo " #    │Update and upgrade the Repositories│"
 sudo apt update && sudo apt upgrade
 echo " #    │Installing Sublime Text│"
