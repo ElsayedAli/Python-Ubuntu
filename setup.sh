@@ -14,7 +14,7 @@ sudo apt install chromium-browser
 echo " #    │Generating SSH Key│"
 ssh-keygen -t rsa
 echo " #    │Installing Tkinter│"
-apt-get install python-tk
+sudo apt-get install python-tk
 echo " #    │Installing Tmux│"
 sudo apt install tmux
 echo " #    │Installing Pip and Virtual Env│"
