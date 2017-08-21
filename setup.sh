@@ -5,7 +5,6 @@ sudo apt update && sudo apt upgrade
 echo " #    │Installing Sublime Text│"
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt-get update
 sudo apt install sublime-text
 echo " #    │Installing Apache server│"
 wget https://raw.githubusercontent.com/ahmedash95/php-installer/master/ubuntu.sh && sudo sh ubuntu.sh
@@ -13,8 +12,12 @@ echo " #    │Installing Chromium Browser│"
 sudo apt install chromium-browser
 echo " #    │Generating SSH Key│"
 ssh-keygen -t rsa
+echo " #    │Installing Unrar│"
+sudo apt install unrar
+echo " #    │Installing 7 Zip│"
+sudo apt install p7zip-full
 echo " #    │Installing Tkinter│"
-sudo apt-get install python-tk
+sudo apt install python-tk
 echo " #    │Installing Tmux│"
 sudo apt install tmux
 echo " #    │Installing Pip and Virtual Env│"
