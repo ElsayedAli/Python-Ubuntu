@@ -53,4 +53,3 @@ echo " #    │Installing Filezilla│"
 sudo apt-get install filezilla
 echo " #    │Installing VLC│"
 sudo apt-get install vlc
-sudo apt-get install mozilla-plugin-vlc
